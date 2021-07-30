@@ -1,10 +1,17 @@
-#container {
-    width: 20px;
-    height: 20px;
-    /* display: table; */
+.container {
+    display: block;
+    text-align: center;
+}
+
+#bio {
+    display: flex;
 }
 
 #me {
+    text-align: center;
+}
+
+.about-me {
     text-align: center;
 }
 
@@ -15,3 +22,28 @@ body {
 h2 {
     color: blue;
 }
+
+.card {
+    width: 50rem;
+}
+
+.jumbotron {
+    color: white;
+    background-image: url(/Assets/background2.jpg);
+    background-size: cover;
+    height: 500px;
+    padding-top: 10%;
+    padding-bottom: 30%;
+}
+
+.footer {
+    text-align: center;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
