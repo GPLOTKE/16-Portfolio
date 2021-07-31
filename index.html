@@ -7,15 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerald Plotke's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="Assets/style.css">
 </head>
 
 <body>
-    <Header>
-        <div class="jumbotron" id="me">
-            <h1 class="display-1">Hey, I'm Gerald. Welcome to the Thunderdome.</h1>
-        </div>
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <ul class="navbar-nav ml-auto me-auto mb-2 mb-lg-0">
@@ -24,7 +29,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          My Work
+                            My Work
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#bootcampbox">BootCampBox</a>
@@ -37,89 +42,111 @@
                         <a class="nav-link active" aria-current="page" href="#contact-info">Contact info</a>
                     </li>
                     <li class="nav-item">
-                        <a class="text-primary" class="nav-link active" id="download" aria-current="page" href="Assets/resume2.pdf">Download Resume</a>
+                        <a class="nav-link active" aria-current="page" href="Assets/resume2.pdf">Download Resum&eacute;</a>
                     </li>
                 </ul>
             </div>
         </nav>
-    </Header>
+        <div class="jumbotron" id="me">
+            <h1>Hey, I'm Gerald. Welcome.</h1>
+        </div>
+    </header>
 
     <main>
-        <div id="bio">
+        <section class="biocard">
             <div id="contact-info" class="card" style="width: 50rem;">
-                <img src="Assets/1616002464962.jpg" class="card-img-top" alt="Picture of Jerry" />
+                <img src="./Assets/1616002464962.jpg" class="card-img-top" alt="Picture of Jerry" />
                 <div class="card-body">
                     <h2 class="card-title">Contact Info</h2>
 
-                    <h4 class="card-subtitle mb-2 text-muted">Email:</h4>
-                    <a class="card-link" href="mailto: jerry.plotke@gmail.com">Jerry.Plotke@gmail.com</a>
-                    <br>
-                    <br>
+                    <h5 class="card-subtitle mb-2 text-muted">Email: <a class="card-link" href="mailto: jerry.plotke@gmail.com">Jerry.Plotke@gmail.com</a>
+                    </h5>
 
-                    <h4 class="card-subtitle mb-2 text-muted">GitHub:</h4>
-                    <a class="card-link" href="https://github.com/GPLOTKE">GitHub</a>
-                    <br>
-                    <br>
+                    <h5 class="card-subtitle mb-2 text-muted">GitHub<a class="card-link" href="https://github.com/GPLOTKE">/GPLOTKE</a>
+                    </h5>
 
-                    <h4 class="card-subtitle mb-2 text-muted">LinkedIn:</h4>
-                    <a class="card-link" href="https://www.linkedin.com/in/gerald-plotke/">LinkedIn</a>
-                    <br>
+                    <h5 class="card-subtitle mb-2 text-muted">LinkedIn<a class="card-link" href="https://www.linkedin.com/in/gerald-plotke/">/Gerald-Plotke</a>
+                    </h5>
+
                 </div>
             </div>
+        </section>
+        <section class="other">
+            <hr>
+
             <div id="about-me" class="about-me">
                 <h2>Biography</h2>
-                <p>I am a brand new web developer currently enrolled in Northwestern's Coding Bootcamp. I have a Bachelor's degree in Marketing from Illinois State University and 7 years of sales experience in the logistics industry. I live in the suburbs
-                    just outside of Chicago with my wife, Ranna, and our two beautiful children, Amara and Gerald. When I'm not out spending time with my family you can usually find me on the ice rink playing hockey or looking for some live music.</p>
-                <a class="text-primary" class="nav-link active" id="download" aria-current="page" href="Assets/resume2.pdf">Download Resume</a>
+                <p class="h4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>I am a new web developer currently enrolled in Northwestern's Coding Bootcamp. I have a Bachelor's degree in Marketing from Illinois State University and 7 years of sales experience in the logistics industry. I live in the suburbs just
+                    outside of Chicago with my wife, Ranna and our children, Amara and Gerald. When I'm not out spending time with my family you can usually find me at the ice rink playing hockey or looking for some live music.</p>
+                <a class="text-primary" class="nav-link active" id="download" aria-current="page" href="Assets/resume2.pdf">Resum&eacute;</a>
             </div>
             <br>
             <br>
-        </div>
-        <div class="container" id="my-work">
-            <h2>My Work</h2>
-            <br>
-            <br>
-            <div class="card">
-                <div class="card-body">
-                    <h3 id="bootcampbox" class="card-title">BootCampBox</h3>
-                    <a href="https://www.nubootcampbox.xyz/">BootCampBox</a>
-                    <br>
-                    <a href="https://github.com/BootcampBox/BootCampBox ">GitHub Repository</a>
-                    <img class="card-img-bottom" src="Assets/bootcampboxscreenshot.PNG " alt="pic of application " />
+            </div>
+            <div class="container" id="my-work">
+                <h2> My Work </h2>
+                <p class="h4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <div class="card">
+                    <div class="card-body">
+                        <h3 id="bootcampbox" class="card-title">BootCampBox</h3>
+                        <div class="cardlinks">
+                            <a href="https://www.nubootcampbox.xyz/">Visit BootCampBox <i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <br>
+                            <a href="https://github.com/BootcampBox/BootCampBox ">GitHub Repository <i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
+                        <a title="Visit BootcampBox" href="https://www.nubootcampbox.xyz/">
+                            <img class="card-img-bottom" src="Assets/bootcampboxscreenshot.PNG " alt="pic of application " />
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <br>
-            <br>
-            <div class="card">
-                <div class="card-body">
-                    <h3 id="trashparty" class="card-title">TrashParty</h3>
-                    <a href="http://trashparty.xyz/">TrashParty</a>
-                    <br>
-                    <a href="https://github.com/GPLOTKE/16-Portfolio">GitHub Repository</a>
-                    <img class="card-img-bottom" src="Assets/trashparty.PNG" alt="pic of application " />
-                </div>
-            </div>
-            <br>
-            <br>
-            <div class="card">
-                <div class="card-body">
-                    <h3 id="codequiz" class="card-title">Code Quiz</h3>
-                    <a href="https://gplotke.github.io/04-Homework-WebAPIs/ ">https://gplotke.github.io/04-Homework-WebAPIs/</a>
-                    <br>
-                    <a href="https://github.com/GPLOTKE/04-Homework-WebAPIs ">GitHub Repository</a>
-                    <img class="card-img-bottom" src="Assets/codequizscreenshot.PNG " alt="pic of application " />
-                </div>
-            </div>
-            <br>
-            <br>
-            <div class="card">
-                <h3 id="dayplanner" class="card-title">Day Planner</h3>
-                <a href="https://gplotke.github.io/05-Homework-ThirdPartyAPIs/">https://gplotke.github.io/05-Homework-ThirdPartyAPIs/</a>
                 <br>
-                <a href="https://github.com/GPLOTKE/05-Homework-ThirdPartyAPIs ">GitHub Repository</a>\
-                <img class="card-img-bottom" src="Assets/dayplannerscreenshot.PNG " alt="pic of application " />
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <h3 id="trashparty" class="card-title">TrashParty</h3>
+                        <div class="cardlinks">
+                            <a href="http://trashparty.xyz/"> Visit TrashParty <i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <br>
+                            <a href="https://github.com/GPLOTKE/16-Portfolio">GitHub Repository <i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
+                        <a title="Visit TrashParty" href="http://trashparty.xyz/">
+                            <img class="card-img-bottom" src="Assets/trashparty.PNG" alt="pic of application " />
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <h3 id="codequiz" class="card-title">Code Quiz</h3>
+                        <div class="cardlinks">
+                            <a href="https://gplotke.github.io/04-Homework-WebAPIs/">Visit Deployed Code Quiz <i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <br>
+                            <a href="https://github.com/GPLOTKE/04-Homework-WebAPIs ">GitHub Repository <i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
+                        <a title="Visit Code Quiz" href="https://gplotke.github.io/04-Homework-WebAPIs/">
+                            <img class="card-img-bottom" src="Assets/codequizscreenshot.PNG " alt="pic of application" />
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <h3 id="dayplanner" class="card-title">WD Scheduler</h3>
+                        <div class="cardlinks">
+                            <a href="https://gplotke.github.io/05-Homework-ThirdPartyAPIs/">Visit Scheduler <i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <br>
+                            <a href="https://github.com/GPLOTKE/05-Homework-ThirdPartyAPIs ">GitHub Repository <i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
+                        <a title="Visit Scheduler" href="https://gplotke.github.io/05-Homework-ThirdPartyAPIs/">
+                            <img class="card-img-bottom" src="Assets/dayplannerscreenshot.PNG " alt="pic of application " />
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
         <br>
         <br>
     </main>
@@ -129,9 +156,16 @@
 </body>
 
 <footer class="footer">
-    <a href="mailto: jerry.plotke@gmail.com">Jerry.Plotke@gmail.com</a> |
-    <a href="https://github.com/GPLOTKE">GitHub</a> |
-    <a href="https://www.linkedin.com/in/gerald-plotke/">LinkedIn</a>
+    <a href="mailto: jerry.plotke@gmail.com">
+        <!-- <span class="material-icons">email</span> -->
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+    </a> |
+    <a href="https://github.com/GPLOTKE">
+        <!-- <span class="material-icons">language</span>GitHub</a> -->
+        <i class="fa fa-github" aria-hidden="true"></i></a> |
+    <a href="https://www.linkedin.com/in/gerald-plotke/">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </a>
     <br>
     <br>
 </footer>
