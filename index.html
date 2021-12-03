@@ -13,16 +13,15 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" type="text/css" href="Assets/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
+                <p class="lead" id="currentDay">00:00:00</p>
                 <ul class="navbar-nav ml-auto me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#about-me">Biography</a>
@@ -35,14 +34,14 @@
                             <a class="dropdown-item" href="#bootcampbox">BootCampBox</a>
                             <a class="dropdown-item" href="#trashparty">TrashParty</a>
                             <a class="dropdown-item" href="#codequiz">Code Quiz</a>
-                            <a class="dropdown-item" href="#dayplanner">Day Planner</a>
+                            <a class="dropdown-item" href="#dayplanner">WD Scheduler</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#contact-info">Contact info</a>
+                        <a class="nav-link active" aria-current="page" href="#contact-info">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Assets/resume2.pdf">Download Resum&eacute;</a>
+                        <a class="nav-link active" aria-current="page" href="./assets/Gerald_Plotke_Resume_4.PDF" target="_blank">Download Resum&eacute;</a>
                     </li>
                 </ul>
             </div>
@@ -55,9 +54,9 @@
     <main>
         <section class="biocard">
             <div id="contact-info" class="card" style="width: 50rem;">
-                <img src="./Assets/IMG_E4918.JPG" class="card-img-top" alt="Picture of Jerry" />
+                <img src="./assets/images/IMG_E5865.JPG" class="card-img-top" id="bio-pic" alt="Picture of Jerry" />
                 <div class="card-body">
-                    <h2 class="card-title">Contact Info</h2>
+                    <h2 class="card-title">Lets Get In Touch!</h2>
 
                     <h5 class="card-subtitle mb-2 text-muted">GitHub
                         <a class="card-link" href="https://github.com/GPLOTKE" target="_blank">/GPLOTKE</a>
@@ -91,7 +90,7 @@
                 <p>Web developer with a bachelor’s degree in Business Marketing at Illinois State University and substantial experience in sales and logistics. Fully certified in full-stack development from Northwestern’s Coding Bootcamp in order to nourish
                     a love for gaining new knowledge and increasing problem solving capabilities. By continuing to develop CSS, JavaScript, and MERN skillsets my goal is to build new and increasingly challenging projects with a problem anticipation mindset.
                     I live in the suburbs outside of Chicago with my wife, Ranna and our children, Amara and Gerald. When I'm not out spending time with my family you can usually find me at the ice rink playing hockey or looking for some live music.</p>
-                <a class="text-primary" class="nav-link active" id="download" aria-current="page" href="Assets/resume2.pdf">Resum&eacute;</a>
+                <a class="text-primary" class="nav-link active" id="download" aria-current="page" href="./assets/Gerald_Plotke_Resume_4.PDF" target="_blank"> Download Resum&eacute;</a>
             </div>
             <br>
             <br>
@@ -112,7 +111,7 @@
                             well as JavaScript for functionality. DayPilot.js was used for the calendar component and AJAX to retrieve data from Github.
                         </p>
                         <a title="Visit BootcampBox" href="https://www.nubootcampbox.xyz/">
-                            <img class="card-img-bottom" src="Assets/bootcampboxscreenshot.PNG " alt="pic of application " />
+                            <img class="card-img-bottom" src="./assets/images/bootcampboxscreenshot.PNG " alt="pic of application " />
                         </a>
                     </div>
                 </div>
@@ -132,7 +131,7 @@
                             JavaScript to send and retrieve data. Some other technologies used are node.js, sequelize and MySQL for the database.
                         </p>
                         <a title="Visit TrashParty" href="http://trashparty.xyz/">
-                            <img class="card-img-bottom" src="Assets/trashparty.PNG" alt="pic of application " />
+                            <img class="card-img-bottom" src="./assets/images/trashparty.PNG" alt="pic of application " />
                         </a>
                     </div>
                 </div>
@@ -151,7 +150,7 @@
                             until you are done. This application was developed using JavaScript.
                         </p>
                         <a title="Visit Code Quiz" href="https://gplotke.github.io/04-Homework-WebAPIs/">
-                            <img class="card-img-bottom" src="Assets/codequizscreenshot.PNG " alt="pic of application" />
+                            <img class="card-img-bottom" src="./assets/images/codequizscreenshot.PNG " alt="pic of application" />
                         </a>
                     </div>
                 </div>
@@ -170,7 +169,7 @@
                             the page your event will save. This application was developed using JavaScript.
                         </p>
                         <a title="Visit Scheduler" href="https://gplotke.github.io/05-Homework-ThirdPartyAPIs/">
-                            <img class="card-img-bottom" src="Assets/dayplannerscreenshot.PNG " alt="pic of application " />
+                            <img class="card-img-bottom" src="./assets/images/dayplannerscreenshot.PNG " alt="pic of application " />
                         </a>
                     </div>
                 </div>
@@ -179,8 +178,10 @@
         <br>
         <br>
     </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="./assets/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 </body>

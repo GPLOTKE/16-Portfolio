@@ -1,0 +1,23 @@
+{
+    "name": "16-portfolio",
+    "version": "1.0.0",
+    "description": "GitHub Profile: https://github.com/GPLOTKE",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GPLOTKE/16-Portfolio.git"
+    },
+    "author": "Gerald Plotke",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GPLOTKE/16-Portfolio/issues"
+    },
+    "homepage": "https://github.com/GPLOTKE/16-Portfolio#readme",
+    "dependencies": {
+        "jquery": "^3.6.0",
+        "moment": "^2.29.1"
+    }
+}

@@ -1,5 +1,5 @@
 :root {
-    --jumbotronFont: calc(72px + 2.5vw);
+    --jumbotronFont: calc(50px + 2.5vw);
 }
 
 body {
@@ -34,6 +34,10 @@ hr {
     top: 0;
 }
 
+#bio-pic {
+    border: 8px solid black;
+}
+
 #me {
     text-align: center;
 }
@@ -43,7 +47,7 @@ hr {
 }
 
 body {
-    background-color: lightblue;
+    background-color: darkgray;
 }
 
 .card {
@@ -105,12 +109,12 @@ h5 a {
 
 .jumbotron {
     color: white;
-    background-image: url('./background.jpg');
+    background-image: url('./images/background.jpg');
     background-size: cover;
     object-fit: cover;
     height: 500px;
     padding-top: 10%;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
 }
 
 .jumbotron h1 {
