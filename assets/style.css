@@ -112,16 +112,14 @@ h5 a {
     background-image: url('./images/panorama-beautiful-green-forest-summer-nature-scenery-yellow-wild-flowers-panorama-beautiful-green-forest-landscape-131579660.jpg');
     background-size: cover;
     object-fit: cover;
-    height: 400px;
+    height: 500px;
     padding-top: 15%;
     padding-bottom: 25%;
-    padding-left: 15%;
-    padding-right: 15%;
 }
 
 .jumbotron h1 {
     font-size: var(--jumbotronFont) !important;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: .75px black;
 }
 
 .footer {
