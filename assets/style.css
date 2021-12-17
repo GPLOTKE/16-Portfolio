@@ -184,9 +184,12 @@ h5 a {
     .navbar-nav li {
         display: inline-flex;
     }
+    .other {
+        padding: 0;
+    }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     main {
         display: flex;
         flex-flow: row wrap;
@@ -197,6 +200,7 @@ h5 a {
     }
     .biocard {
         flex: 0 0 50%;
+        margin: auto;
     }
     hr {
         display: block;
@@ -224,7 +228,7 @@ h5 a {
         font-size: 15vw !important;
     }
     .biocard {
-        margin: 0;
+        margin: auto;
     }
     .other {
         height: auto;
@@ -237,5 +241,8 @@ h5 a {
     }
 }
 
-
-/* @media (min-width: 1200px) {} */
+@media (min-width: 1200px) {
+    .other {
+        padding-bottom: 0;
+    }
+}
