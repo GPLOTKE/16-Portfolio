@@ -4,7 +4,7 @@
 
 body {
     /* font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !important; */
-    background-color: lightgray;
+    background-color: rgb(211, 213, 223);
 }
 
 .container {
@@ -75,6 +75,7 @@ hr {
     margin: auto;
     display: block;
     max-width: 100%;
+    padding-bottom: 25px;
 }
 
 h2 {
@@ -140,11 +141,11 @@ h5 a {
 .jumbotron {
     text-align: center;
     color: white;
-    background-image: url('./images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg');
+    background-image: url('./images/sergei-a--heLWtuAN3c-unsplash.jpg');
     background-size: cover;
     object-fit: cover;
-    height: 650px;
-    padding-top: 15%;
+    height: 675px;
+    padding-top: 3%;
     padding-bottom: 30%;
     margin-bottom: 0px;
     /* max-width: 100%;
@@ -154,7 +155,7 @@ h5 a {
 
 .jumbotron h1 {
     font-size: var(--jumbotronFont);
-    -webkit-text-stroke: .5px black;
+    -webkit-text-stroke: .1px black;
     /* font-family: 'Roboto' sans-serif !important; */
 }
 
