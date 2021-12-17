@@ -4,7 +4,7 @@ GitHub Profile:
 https://github.com/GPLOTKE
 
 Homework Repository:
-https://github.com/GPLOTKE/16-Portfolio
+https://github.com/GPLOTKE/16-Portfolio-3.0
 
 Deployed Portfolio URL:
 https://gplotke.github.io/16-Portfolio-3.0/
