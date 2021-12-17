@@ -54,13 +54,6 @@ hr {
     padding: 3px;
 }
 
-
-/* .about-me {
-    text-align: center;
-    padding: 10px;
-    padding-top: 16px;
-} */
-
 .card h4 {
     font-weight: bold;
 }
@@ -193,11 +186,14 @@ h5 a {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     main {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+    }
+    .jumbotron h1 {
+        padding-top: 100px;
     }
     .biocard {
         flex: 0 0 50%;
@@ -213,15 +209,33 @@ h5 a {
     h5 a {
         font-size: unset;
     }
+    .other {
+        padding: 60px;
+    }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .jumbotron {
-        padding: 40% 0
+        /* padding: 40% 0; */
+        height: 500px;
+        padding-top: 10px;
     }
     .jumbotron h1 {
-        font-size: 20vw !important;
+        font-size: 15vw !important;
+    }
+    .biocard {
+        margin: 0;
+    }
+    .other {
+        height: auto;
+        max-width: 100%;
+        display: block;
+        padding: 0px;
+    }
+    #my-work {
+        padding-bottom: 20px;
     }
 }
 
-@media (min-width: 1200px) {}
+
+/* @media (min-width: 1200px) {} */
