@@ -51,7 +51,7 @@ hr {
     margin: auto;
     max-width: 100%;
     display: block;
-    padding: 20px;
+    padding: 3px;
 }
 
 
@@ -73,7 +73,7 @@ hr {
 .card-body {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    padding-top: 15px;
+    padding: 10px;
     /* width: unset !important; */
     font-weight: bold;
     margin: auto;
@@ -149,6 +149,9 @@ h5 a {
     padding-top: 15%;
     padding-bottom: 30%;
     margin-bottom: 0px;
+    /* max-width: 100%;
+    display: block;
+    height: 600px; */
 }
 
 .jumbotron h1 {
