@@ -13,7 +13,7 @@ body {
 }
 
 .nav-link:hover {
-    text-shadow: -1px -1px 1px #2600ffbb;
+    text-shadow: -1px -1px 1px #5ab2e6bb;
     transition: text-shadow 0.3s ease-in-out;
 }
 
@@ -47,20 +47,23 @@ hr {
 }
 
 #bio-pic {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     max-width: 100%;
     display: block;
-    padding: 3px;
+    /* padding: 3px; */
 }
 
 .card h4 {
     font-weight: bold;
+    /* font-style: italic; */
+    margin: 10px;
 }
 
 .card {
     width: unset !important;
     font-weight: bold;
+    border: 1px solid black;
 }
 
 .card-body {
@@ -97,6 +100,7 @@ h5 a {
     /* mix-blend-mode: color-dodge; */
     text-align: center;
     font-weight: bold;
+    margin: 10px;
 }
 
 .cardlinks {
@@ -130,6 +134,7 @@ h5 a {
 .h4 {
     margin-top: -2%;
     text-decoration-line: underline !important;
+    margin-bottom: 20px;
 }
 
 .jumbotron {
