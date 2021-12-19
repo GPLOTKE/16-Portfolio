@@ -1,20 +1,6 @@
-:root {
-    --jumbotronFont: calc(50px + 2.5vw);
-}
-
 body {
-    /* font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !important; */
-    background-color: rgb(211, 213, 223);
-}
-
-.container {
-    display: block;
-    text-align: center;
-}
-
-.nav-link:hover {
-    text-shadow: -1px -1px 1px #5ab2e6bb;
-    transition: text-shadow 0.3s ease-in-out;
+    background-color: #001517;
+    /* color: white; */
 }
 
 main {
@@ -23,65 +9,10 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 
-.other {
-    padding-top: 0% !important;
-    padding: 100px;
-    flex: 1 0 100%;
-}
-
-.biocard {
-    grid-column: 1;
-    /* padding-left: 10px; */
-    margin-left: 50px;
-    max-width: 100%;
-    display: block;
-}
-
-hr {
-    display: none;
-}
-
-#contact-info {
-    position: sticky;
-    top: 0;
-}
-
-#bio-pic {
-    /* border: 1px solid black; */
-    margin: auto;
-    max-width: 100%;
-    display: block;
-    /* padding: 3px; */
-}
-
-.card h4 {
-    font-weight: bold;
-    /* font-style: italic; */
-    margin: 10px;
-}
-
-.card {
-    width: unset !important;
-    font-weight: bold;
-    border: 1px solid black;
-}
-
-.card-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    padding: 10px;
-    /* width: unset !important; */
-    font-weight: bold;
-    margin: auto;
-    display: block;
-    max-width: 100%;
-    padding-bottom: 50px;
-}
-
 h2 {
     margin-bottom: 0;
     font-weight: bold;
-    /* color: slategray; */
+    color: white;
 }
 
 h5 {
@@ -93,15 +24,133 @@ h5 a {
     font-size: 1.5vw;
 }
 
+hr {
+    display: none;
+}
+
+.nav-link:hover {
+    text-shadow: -1px -1px 1px #001517;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.parallax {
+    /* font: Avenir; */
+    text-align: left;
+    /* color: white; */
+    background-image: url("./images/Background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    /* height: 675px; */
+    height: 100vh;
+    /* min-height: 500px; */
+    /* padding-top: 3%;
+    padding-bottom: 30%;
+    margin-bottom: 0px; */
+}
+
+
+/* .parallax {} */
+
+.parallax h1 {
+    color: white;
+    font-size: 120px;
+    -webkit-text-stroke: .1px black;
+    margin-left: 150px;
+    /* margin-top: 100px; */
+    /* font-weight: bold; */
+    /* opacity: 1; */
+    /* font-family: 'Roboto' sans-serif !important; */
+}
+
+#resume-btn {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: block;
+    /* text-align: left; */
+}
+
+.container h2 {
+    margin-bottom: 16px;
+}
+
+.other {
+    padding-top: 0% !important;
+    padding: 150px;
+    flex: 1 0 100%;
+}
+
+.biocard {
+    grid-column: 1;
+    /* padding-left: 10px; */
+    margin-left: 50px;
+    max-width: 100%;
+    display: block;
+}
+
+#contact-info {
+    position: sticky;
+    top: 0;
+}
+
+#contact-info h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #001517;
+}
+
+#bio-pic {
+    /* border: 1px solid black; */
+    margin: auto;
+    padding-bottom: 10px;
+    max-width: 100%;
+    display: block;
+    border-radius: 18px;
+    /* padding: 3px; */
+}
+
+.card {
+    width: unset !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    /* padding-bottom: 40px; */
+    /* background-color: #9aa4a6; */
+    background-color: #9ea7a8;
+    border-radius: 18px;
+    color: #001517;
+}
+
+.card a {
+    text-align: center;
+    color: #28A745;
+}
+
+.card button {
+    text-align: center;
+}
+
 .card-title {
-    color: gray;
-    background: rgb(255, 255, 255);
+    color: #001517;
+    /* background: rgb(255, 255, 255); */
     /* -webkit-text-stroke: .15px rgb(3, 3, 3); */
     /* text-shadow: 1px 0px 1px rgba(3, 3, 3, 1); */
     /* mix-blend-mode: color-dodge; */
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     margin: 10px;
+}
+
+.card-subtitle {
+    color: #001517;
 }
 
 .cardlinks {
@@ -116,6 +165,7 @@ h5 a {
     box-shadow: 0px 0px 20px -4px rgba(0, 0, 0, 0.62);
     object-fit: cover;
     margin: auto;
+    margin-bottom: 16px;
     height: auto;
     width: 50%;
     max-width: 100%;
@@ -125,39 +175,19 @@ h5 a {
 .card-img-bottom:hover {
     -webkit-box-shadow: 0px 0px 20px -4px rgba(35, 75, 253, 0.62);
     box-shadow: 0px 0px 20px -4px rgba(35, 75, 253, 0.62);
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
 }
 
 .cardlinks a {
     flex: 1 0 40%;
 }
 
-.h4 {
+
+/* .h4 {
     margin-top: -2%;
     text-decoration-line: underline !important;
     margin-bottom: 20px;
-}
-
-.jumbotron {
-    text-align: center;
-    color: white;
-    background-image: url('./images/sergei-a--heLWtuAN3c-unsplash.jpg');
-    background-size: cover;
-    object-fit: cover;
-    height: 675px;
-    padding-top: 3%;
-    padding-bottom: 30%;
-    margin-bottom: 0px;
-    /* max-width: 100%;
-    display: block;
-    height: 600px; */
-}
-
-.jumbotron h1 {
-    font-size: var(--jumbotronFont);
-    -webkit-text-stroke: .1px black;
-    /* font-family: 'Roboto' sans-serif !important; */
-}
+} */
 
 .footer {
     width: 100%;
@@ -201,8 +231,8 @@ h5 a {
         flex-flow: row wrap;
         justify-content: center;
     }
-    .jumbotron h1 {
-        padding-top: 100px;
+    .parallax h1 {
+        margin-left: 50px;
     }
     .biocard {
         flex: 0 0 50%;
@@ -224,14 +254,27 @@ h5 a {
     }
 }
 
-@media screen and (max-width: 420px) {
-    .jumbotron {
-        /* padding: 40% 0; */
-        height: 500px;
-        padding-top: 10px;
+@media screen and (max-width: 800px) {
+    .parallax h1 {
+        font-size: 15vh !important;
     }
-    .jumbotron h1 {
+}
+
+@media screen and (max-width: 730px) {
+    .parallax h1 {
+        font-size: 10vh !important;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .parallax {
+        /* padding: 40% 0; */
+        height: 100vh;
+    }
+    .parallax h1 {
         font-size: 15vw !important;
+        margin-left: 20px !important;
     }
     .biocard {
         margin: auto;
@@ -244,6 +287,9 @@ h5 a {
     }
     #my-work {
         padding-bottom: 20px;
+    }
+    #contact-info {
+        width: 75vw !important;
     }
 }
 
