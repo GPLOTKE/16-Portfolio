@@ -12,7 +12,7 @@ main {
 h2 {
     margin-bottom: 0;
     font-weight: bold;
-    color: white;
+    color: white !important;
 }
 
 h5 {
@@ -66,8 +66,9 @@ hr {
 }
 
 #resume-btn {
-    color: white;
+    color: #001517;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .container {
@@ -132,7 +133,7 @@ hr {
 
 .card a {
     text-align: center;
-    color: #28A745;
+    color: #001517;
 }
 
 .card button {
