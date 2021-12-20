@@ -180,8 +180,8 @@ hr {
 }
 
 .card-img-bottom:hover {
-    -webkit-box-shadow: 0px 0px 20px -4px rgba(35, 75, 253, 0.62);
-    box-shadow: 0px 0px 20px -4px rgba(35, 75, 253, 0.62);
+    -webkit-box-shadow: 0px 0px 20px -4px #001517;
+    box-shadow: 0px 0px 20px -4px #001517;
     transition: all .2s ease-in-out;
 }
 
