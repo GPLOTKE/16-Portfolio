@@ -272,15 +272,16 @@ hr {
 /* @media screen and (max-width:640) {
     .parallax {
         text-align: left;
-        background-image: url("./images/Background.png");
+        background-image: url("./images/Background_Leaf.png");
         height: 10px;
     }
 } */
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 640px) {
     .parallax {
         /* padding: 40% 0; */
-        height: 100vh;
+        height: 75vh;
+        background-attachment: inherit;
     }
     .parallax h1 {
         font-size: 15vw !important;
