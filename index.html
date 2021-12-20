@@ -22,39 +22,37 @@
 
 <body>
     <header>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <p class="lead" id="currentDay">00:00:00</p>
-                <ul class="navbar-nav ml-auto me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#about-me">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#contact-info">Contact</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="parallax">
+
+            <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <!-- <p class="lead" id="currentDay">00:00:00</p> -->
+                    <ul class="navbar-nav ml-auto me-auto mb-2 mb-lg-0 navbar-brand" style="color: white">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about-me">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contact-info">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             My Work
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#bootcampbox">BootCampBox</a>
-                            <a class="dropdown-item" href="#trashparty">TrashParty</a>
-                            <a class="dropdown-item" href="#passwordgenerator">Password Generator</a>
-                            <a class="dropdown-item" href="#codequiz">Code Quiz</a>
-                            <!-- <a class="dropdown-item" href="#dayplanner">WD Scheduler</a> -->
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./assets/personalResume.pdf" target="_blank">Resum&eacute;</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="parallax">
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#bootcampbox">BootCampBox</a>
+                                <a class="dropdown-item" href="#trashparty">TrashParty</a>
+                                <a class="dropdown-item" href="#passwordgenerator">Password Generator</a>
+                                <a class="dropdown-item" href="#codequiz">Code Quiz</a>
+                                <!-- <a class="dropdown-item" href="#dayplanner">WD Scheduler</a> -->
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./assets/personalResume1.pdf" target="_blank">Resum&eacute;</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             <div class="parallax-title">
-                <br>
-                <br>
-                <br>
                 <br>
                 <br>
                 <br>
@@ -71,7 +69,7 @@
         <section class="biocard">
             <div id="contact-info" class="card" style="width: 50rem;">
                 <img src="./assets/images/IMG_E5865.JPG" class="card-img-top img-thumbnail" id="bio-pic" alt="Picture of Jerry" />
-                <div class="container">
+                <div>
                     <h2>Contact Me</h2>
                     <!-- <p class="h4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> -->
                 </div>
@@ -79,15 +77,15 @@
                     <a class="card-link" href="mailto: jerry.plotke@gmail.com"> <u>Jerry.Plotke@gmail.com</u></a>
                 </h5>
                 <h5 class="card-subtitle mb-2"><i class="fa fa-github" aria-hidden="true"></i>
-                    <a class="card-link" href="https://github.com/GPLOTKE" target="_blank"><u>GPLOTKE</u></a>
+                    <a class="card-link" href="https://github.com/GPLOTKE" target="_blank"><u>GitHub</u></a>
                 </h5>
 
                 <h5 class="card-subtitle mb-2"><i class="fa fa-linkedin" aria-hidden="true"></i>
-                    <a class="card-link" href="https://www.linkedin.com/in/gerald-plotke/" target="_blank"><u>Gerald Plotke</u></a>
+                    <a class="card-link" href="https://www.linkedin.com/in/gerald-plotke/" target="_blank"><u>LinkedIn</u></a>
                 </h5>
 
                 <h5 class="card-subtitle mb-2"><span class="iconify" data-icon="simple-icons:upwork"></span>
-                    <a class="card-link" href="https://www.upwork.com/freelancers/~0130bc11f0ededfa2f" target="_blank"><u>Gerald P.</u></a>
+                    <a class="card-link" href="https://www.upwork.com/freelancers/~0130bc11f0ededfa2f" target="_blank"><u>upwork</u></a>
                 </h5>
 
                 <!-- <h5 class="card-subtitle mb-2 text-muted">Organization
@@ -97,7 +95,7 @@
         </section>
         <section class="other container">
             <hr>
-            <div class="container">
+            <div>
                 <h2>About Me
                     <!-- <p style="color: white" class="h4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> -->
                 </h2>
@@ -107,7 +105,7 @@
                         to expand my CSS, Javascript, and MERN skillsets in order to help myself and others learn new ways of thinking outside the box. My ability to gauge customer interest and develop a custom solution that exceeds expectations has brought
                         me great success to date. I live in the greater Chicago area with my wife and 2 children. When I am not spending time with my family you can usually find me playing competitive ice hockey or out enjoying live music.</p>
                     <div style="text-align:center">
-                        <a id=resume-btn class="btn btn-outline-dark" role="button" href="./assets/personalResume.pdf" download="GeraldPlotkeResume.pdf">Download Resum&eacute;</b></a>
+                        <a id=resume-btn class="btn btn-outline-dark" role="button" style="color:white" href="./assets/personalResume1.pdf" download="GeraldPlotkeResume.pdf">Download Resum&eacute;</b></a>
                     </div>
                 </div>
             </div>
@@ -169,7 +167,7 @@
                 <br>
                 <br>
                 <div class="card">
-                    <h3 id="codequiz" class="card-title"><u>Quiz</u></h3>
+                    <h3 id="codequiz" class="card-title"><u>Code Quiz</u></h3>
                     <p>
                         This application allows the user to take a quick, fun and entertaining quiz to test their knowledge. The quiz consists of ten coding questions ranging from beginner to intermediate level. Test your development knowledge!
                     </p>
@@ -228,8 +226,6 @@
     <a href="https://www.upwork.com/freelancers/~0130bc11f0ededfa2f" target="_blank">
         <span class="iconify" style="color: #001517" data-icon="simple-icons:upwork"></span>
     </a>
-    <br>
-    <br>
 </footer>
 
 </html>
