@@ -1,7 +1,9 @@
-body {
-    background-color: #001517;
+main {
+    /* background-color: #001517; */
     /* color: white; */
-    /* background-color: #00262b */
+    /* background-color: #68878b */
+    /* background-color: #356370 */
+    background-image: url("./images/Background_squares.png")
 }
 
 main {
@@ -13,7 +15,7 @@ main {
 h2 {
     margin-bottom: 0;
     font-weight: bold;
-    color: white !important;
+    color: white;
 }
 
 h5 {
@@ -87,21 +89,23 @@ hr {
 
 .other {
     padding-top: 0% !important;
-    padding: 150px;
+    padding: 175px;
     flex: 1 0 100%;
 }
 
 .biocard {
     grid-column: 1;
     /* padding-left: 10px; */
-    margin-left: 50px;
-    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+    /* max-width: 100%; */
     display: block;
 }
 
 #contact-info {
     position: sticky;
-    top: 0;
+    top: 5%;
+    /* margin-top: 50px; */
 }
 
 #contact-info h2 {
@@ -130,8 +134,8 @@ hr {
     display: block;
     max-width: 100%;
     /* padding-bottom: 40px; */
-    /* background-color: #9aa4a6; */
-    background-color: #9ea7a8;
+    background-color: #e6e6e6;
+    /* background-color: #9ea7a8; */
     border-radius: 18px;
     color: #001517;
 }
@@ -139,6 +143,7 @@ hr {
 .card a {
     text-align: center;
     color: #001517;
+    margin-bottom: 16px;
 }
 
 .card button {
@@ -163,8 +168,10 @@ hr {
 .cardlinks {
     width: 100%;
     display: inline-flex;
-    justify-content: space-around;
-    margin-bottom: 2vh;
+    /* text-align: left; */
+    /* margin-right: 100px; */
+    /* justify-content: space-around; */
+    /* margin-bottom: 2vh; */
 }
 
 .card-img-bottom {
