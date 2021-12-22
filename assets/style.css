@@ -293,21 +293,24 @@ hr {
 @media screen and (max-width: 640px) {
     .parallax {
         /* padding: 40% 0; */
-        height: 75vh;
+        height: 100vh;
         background-attachment: inherit;
     }
     .parallax h1 {
         font-size: 15vw !important;
         margin-left: 20px !important;
     }
+    .parallax-title {
+        margin-top: 20vh;
+    }
     .biocard {
         margin: auto;
     }
     .other {
         height: auto;
-        max-width: 100%;
+        /* max-width: 100%; */
         display: block;
-        padding: 0px;
+        padding: 40px;
     }
     #my-work {
         padding-bottom: 20px;
